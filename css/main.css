@@ -1,3 +1,16 @@
-.section{
-    color: red;
+#rigth .section{
+    color: blue;
+    margin-left: 0.75em;
+
+}
+
+#rigth .section div{
+    margin-left: 10%;
+    position: relative;
+}
+
+#rigth .section #ejemplo{
+    padding-right: 5%;
+    position: relative;
+    text-align: right;
 }

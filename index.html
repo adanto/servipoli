@@ -40,36 +40,77 @@
                 </ol>
             </div>
             <div id="rigth">
+
                 <div class="section" id="ajustar">
-                    <p>Ajustar</p>
-                    <form method="post">
-                        <fieldset> 
-                            <input type="button" value="Ajustar" id="primero"\>
-                            <input type="button" value="Limpiar"\><br /><br />
-                            Campus: 
-                            <input type="checkbox" name="campus" value="Alcoy" />Alcoy
-                            <input type="checkbox" name="campus" value="Gandia" />Gandía
-                            <input type="checkbox" name="campus" value="Vera" />Vera<br /><br />
-                            Fecha fin periodo de inscripción: Desde
-                            <input type="date"> hasta: <input type="date"/><br /><br />
-                            Fecha fin servicio: Desde
-                            <input type="date"> hasta: <input type="date"/><br /><br />
-                            Fecha inicio periodo de inscripción: Desde
-                            <input type="date"> hasta: <input type="date"/><br /><br />
-                            Fecha inicio servicio: Desde
-                            <input type="date"> hasta: <input type="date"/><br /><br />
-                            ID:
+                    <h4>Ajustar búsqueda</h4>
+                    <div id="ejemplo">
+                        <input type="button" value="Ajustar"\>
+                        <input type="button" value="Limpiar"\><br /><br />
+                    </div>
+                    <form method="post" class="section">
+                        <span title="Campus">Campus: </span>
+                        <div>
+                            <input type="checkbox" name="campus" value="Alcoy" /><span title="Alcoy">Alcoy</span>
+                            <input type="checkbox" name="campus" value="Gandia" /><span title="Gandía">Gandía</span>
+                            <input type="checkbox" name="campus" value="Vera" /><span title="Vera">Vera</span><br /><br />
+                        </div>
+
+                        <span title="Fecha fin periodo de inscripción">Fecha fin periodo de inscripción:</span> 
+                        <div>
+                            <span>Desde </span>
+                            <input type="date"/>
+                            <span>hasta: </span>
+                            <input type="date"/><br /><br />
+                        </div>
+
+                        <span title="Fecha fin servicio">Fecha fin servicio: </span>
+                        <div>
+                            <span>Desde </span>
+                            <input type="date"/>
+                            <span>hasta: </span>
+                            <input type="date"/><br /><br />
+                        </div> 
+
+                        <span title="Fecha inicio periodo de inscripción">Fecha inicio periodo de inscripción: </span>
+                        <div>
+                            <span>Desde </span>
+                            <input type="date"/>
+                            <span>hasta: </span>
+                            <input type="date"/><br /><br />
+                        </div>
+                        <span title="Fecha inicio servicio">Fecha inicio servicio</span>
+                        <div>
+                            <span>Desde: </span>
+                            <input type="date"/>
+                            <span>hasta </span>
+                            <input type="date"/><br /><br />
+                        </div>
+
+                        <span title="Identificador">ID:</span>
+                        <div>
                             <input type="text"/><br /><br />
+                        </div>
+
+                        <span title="Nombre">
                             Nombre:
-                            <input type="text"/><br /><br />
-                            Objetivo:
-                            <input type="text"/><br /><br />
-                            Tipo de contrato:
+                        </span>
+                        <div>
+                            <input type="text"><br /><br />
+                        </div>
+
+                        <span title="Objetivo">
+                            Objetivo
+                        </span>
+                        <div>
+                            <input type="text"><br /><br />
+                        </div>
+
+                        <span title="Tipo de contrato">Tipo de contrato: </span>
+                        <div>
                             <input type="checkbox" nam="contrato" value="Completo"/>Completo
                             <input type="checkbox" nam="contrato" value="Obra"/>Obra
                             <input type="checkbox" nam="contrato" value="Parcial"/>Parcial<br /><br />
-            
-                        </fieldset>
+                        </div>
                     </form>
                 </div>
                 <div class="section" id="listado">
